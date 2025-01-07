@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+    </style>
+
+    <!-- google font -->
+
+    <!-- Icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Icon -->
+
+</head>
+<body>
+    <div class="max-w-[1280px] mx-auto font-sans">
+        <!-- Navbar -->
+        <nav class="bg-white">
+            <div class="flex items-center justify-between py-4">
+                <div>
+                    <a href="/" class="flex gap-2 items-center">
+                        <img src="https://img.icons8.com/?size=100&id=2BeIdZyy0fFG&format=png&color=000000" class="h-8"
+                            alt="Main Logo" />
+                        <span class="text-2xl font-semibold">Tashin's Cookings</span>
+                    </a>
+                </div>
+                <div>
+                    <ul class="flex gap-x-10 font-medium">
+                        <li><a href="/" class="text-gray-900">Home</a></li>
+                        <li><a href="/menu.html" class="text-gray-900">Menu</a></li>
+                        <li><a href="#" class="text-gray-900">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="relative mt-3">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                            </svg>
+                        </div>
+                        <input type="text" id="search-navbar"
+                            class="w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg outline-none"
+                            placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+    
+    
+        <!-- Banner -->
+    
+        <div class="bg-gray-100 py-10">
+            <div class="flex items-center justify-center">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold">Welcome to Tashin's Cookings</h1>
+                    <p class="mt-4">Discover the world of delicious meals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-[600px] w-full my-10">
+            <img class="h-full w-full object-cover" src="Image/banner.jpg" alt="">
+        </div>
+    
+        <!-- Banner -->
+
+        <!-- About -->
+
+        <div class="my-10">
+            <div class="flex items-center justify-center text-center">  
+                <div class="text-center">
+                    <p class="my-4">Features</p>
+                    <h1 class="text-4xl font-bold">Why people choose us?</h1>
+                    <p class="font-normal text-gray-700 mt-4 w-[680px]">We are a team of experienced chefs who are passionate about cooking and serving delicious meals to our customers.</p>
+                </div>
+            </div>
+
+
+            <div class="grid grid-cols-3 justify-between my-10">
+
+                <div class="flex flex-col gap-4 items-center max-w-[400px] shadow-lg p-6">
+                    <div class="size-28">
+                        <img src="Image/choose1.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-3xl text-center">Menu for every taste</h5>
+                    <p class="font-normal text-gray-700 text-center">Dolor sit amet, consectetur adipisicing elit et molestias possimus</p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center max-w-[400px] shadow-lg p-6">
+                    <div class="size-28">
+                        <img src="Image/chosse2.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-3xl text-center">Always fresh ingredients</h5>
+                    <p class="font-normal text-gray-700 text-center">Assumenda possimus eaque illo iste, autem. Porro eveniet autem</p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center max-w-[400px] shadow-lg p-6">
+                    <div class="size-28">
+                        <img src="Image/chosse3.png" alt="">
+                    </div>
+                    <h5 class="font-bold text-3xl text-center">Experienced chefs</h5>
+                    <p class="font-normal text-gray-700 text-center">Rolorem, beatae dolorum, praesentium itaque et quam quaerat</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- About -->
+
+
+        <!-- footer -->
+
+        <hr class=" border-gray-200 mb-8 mt-20" />
+        <span class="block text-sm text-gray-500 text-center mb-8">© 2025 <a href="/" class="hover:underline">Moon™</a>. All Rights Reserved.</span>
+
+        <!-- footer -->
+
+    </div>
+</body>
+</html>
